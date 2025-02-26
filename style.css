@@ -50,3 +50,25 @@ button:hover {
 button:active {
     background-color: #bbb;
 }
+
+
+.history {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 20px;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.history-item {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 5px;
+}
+
+.history-item:last-child {
+    border-bottom: none;
+}
